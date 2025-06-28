@@ -6,8 +6,8 @@ Learning intermediate page building, custom navigation layouts, domain modeling,
 What is this?
 tutorial about Mendix and built this expense tracking app. The tutorial covers advanced techniques for page building and navigation in Mendix.
 
-What did I build?
 
+# Learned 
 Organized the App Explorer
 Created Domain Model with entities
 Configured security settings
@@ -21,7 +21,7 @@ Added user registration
 Mendix Studio Pro
 Mendix Low-Code Platform
 
-# Setup
+#Setup
 Install Mendix Studio Pro
 Clone this repository
 Open the .mpr file in Studio Pro
