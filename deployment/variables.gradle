@@ -1,0 +1,35 @@
+ext {
+	mendixJavaVersion = 21
+	mendixInstallDir = "/Applications/Studio Pro 10.22.0.68245-Beta.app/Contents"
+	projectName = "App"
+	projectSafeName = "ERP_Projekt"
+	mendixProjectDir = "/Users/mireiotrinley/Desktop/ERP_Projekt"
+	deploymentDir = "/Users/mireiotrinley/Desktop/ERP_Projekt/deployment"
+	dataSnapshotFile = "/Users/mireiotrinley/Desktop/ERP_Projekt/data-snapshot.zip"
+	dataDir = "/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/data"
+	extractDataSnapshot = false
+	templatesDir = "/Applications/Studio Pro 10.22.0.68245-Beta.app/Contents/modeler/runtemplates"
+	runDir = "run"
+	compileTargetDir = "run/bin"
+	deploymentDirName = "deployment"
+	modelDirName = "model"
+	resourcesDirName = "resources"
+	javaSourceDirName = "javasource"
+	libDirName = "lib"
+	userlibDirName = "userlib"
+	vendorlibDirName = "vendorlib"
+	generateFullDebugInfo = false
+	excludedRunTemplatesFiles = [
+		"**/*.template"
+	]
+	publicApiJars = [
+		"runtime/bundles/com.mendix.json.jar",
+		"runtime/bundles/com.mendix.logging-api.jar",
+		"runtime/bundles/com.mendix.m2ee-api.jar",
+		"runtime/bundles/com.mendix.public-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-servlet-api.jar",
+		"runtime/bundles/org.eclipse.jetty.toolchain.jetty-javax-websocket-api.jar"
+	]
+	excludedJars = []
+	protectedModules = []
+}

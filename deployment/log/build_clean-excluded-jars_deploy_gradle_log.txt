@@ -1,0 +1,69 @@
+Initialized native services in: /Users/mireiotrinley/.gradle/native
+Initialized jansi services in: /Users/mireiotrinley/.gradle/native
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=x86_64}
+The client will now receive all logging from the daemon (pid: 28818). The daemon log file: /Users/mireiotrinley/.gradle/daemon/8.5/daemon-28818.out.log
+Starting 4th build in daemon [uptime: 12 mins 20.549 secs, performance: 98%, GC rate: 0.00/s, heap usage: 2% of 512 MiB, non-heap usage: 19% of 384 MiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Now considering [/Users/mireiotrinley/Desktop/ERP_Projekt/deployment] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/settings.gradle'.
+Projects loaded. Root project using build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle'.
+All projects evaluated.
+Task name matched 'clean-excluded-jars'
+Task name matched 'deploy'
+Selected primary task 'clean-excluded-jars' from project :
+Selected primary task 'deploy' from project :
+Tasks to be executed: [task ':clean-excluded-jars', task ':copyDeploymentArtifacts', task ':copyLibs', task ':copyResources', task ':unzipDataSnapshot', task ':deploy']
+Tasks that were excluded: []
+Resolve mutations for :clean-excluded-jars (Thread[#128,Execution worker,5,main]) started.
+:clean-excluded-jars (Thread[#128,Execution worker,5,main]) started.
+destroyer locations for task group 0 (Thread[#127,included builds,5,main]) started.
+
+> Task :clean-excluded-jars UP-TO-DATE
+Caching disabled for task ':clean-excluded-jars' because:
+  Build cache is disabled
+Task ':clean-excluded-jars' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyDeploymentArtifacts (Thread[#128,Execution worker,5,main]) started.
+:copyDeploymentArtifacts (Thread[#128,Execution worker,5,main]) started.
+
+> Task :copyDeploymentArtifacts
+Caching disabled for task ':copyDeploymentArtifacts' because:
+  Build cache is disabled
+Task ':copyDeploymentArtifacts' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Resolve mutations for :copyLibs (Thread[#128,Execution worker,5,main]) started.
+:copyLibs (Thread[#127,included builds,5,main]) started.
+
+> Task :copyLibs NO-SOURCE
+Skipping task ':copyLibs' as it has no source files and no previous output files.
+Resolve mutations for :copyResources (Thread[#127,included builds,5,main]) started.
+:copyResources (Thread[#127,included builds,5,main]) started.
+
+> Task :copyResources NO-SOURCE
+Skipping task ':copyResources' as it has no source files and no previous output files.
+Resolve mutations for :unzipDataSnapshot (Thread[#127,included builds,5,main]) started.
+:unzipDataSnapshot (Thread[#127,included builds,5,main]) started.
+
+> Task :unzipDataSnapshot SKIPPED
+Skipping task ':unzipDataSnapshot' as task onlyIf 'Task is enabled' is false.
+Resolve mutations for :deploy (Thread[#127,included builds,5,main]) started.
+:deploy (Thread[#127,included builds,5,main]) started.
+
+> Task :deploy
+Skipping task ':deploy' as it has no actions.
+
+BUILD SUCCESSFUL in 1s
+2 actionable tasks: 1 executed, 1 up-to-date
+Watched directory hierarchies: [/Users/mireiotrinley/Desktop/ERP_Projekt/deployment]
+
+
+

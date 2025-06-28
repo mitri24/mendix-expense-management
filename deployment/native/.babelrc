@@ -1,0 +1,14 @@
+{
+  "presets": ["module:/Applications/Studio Pro 10.22.0.68245-Beta.app/Contents/modeler/tools/node/node_modules/@react-native/babel-preset"],
+  "plugins": [
+    [
+      "/Applications/Studio Pro 10.22.0.68245-Beta.app/Contents/modeler/tools/node/node_modules/babel-plugin-inline-import",
+      {
+        "extensions": [".svg"]
+      }
+    ],
+    [
+      "module:/Applications/Studio Pro 10.22.0.68245-Beta.app/Contents/modeler/tools/node/node_modules/react-native-reanimated/plugin"
+    ]
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "RuntimeVersion": "10.22.0.68245",
+  "ProjectID": "aafd4e3a-b3aa-49d5-bdf2-cda6e0b58627",
+  "ProjectName": "Praesentation ERP Geschaeftsprozesse",
+  "ModelVersion": "unversioned",
+  "Description": "",
+  "AdminUser": "MxAdmin",
+  "AdminRole": "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+  "JavaVersion": 21,
+  "Roles": {
+    "8dd52bfa-6d7e-453b-b506-303c0a3d9567": {
+      "Name": "Administrator",
+      "ManageableRoles": [
+        "8dd52bfa-6d7e-453b-b506-303c0a3d9567",
+        "53f5d6fa-6da9-4a71-b011-454ec052cce8",
+        "ec09b72d-d886-41bf-ae69-f2d62fe2af99",
+        "913706e9-82a7-482c-ab1b-d55a132f236e"
+      ]
+    },
+    "53f5d6fa-6da9-4a71-b011-454ec052cce8": {
+      "Name": "Requestor"
+    },
+    "ec09b72d-d886-41bf-ae69-f2d62fe2af99": {
+      "Name": "Approver"
+    },
+    "913706e9-82a7-482c-ab1b-d55a132f236e": {
+      "Name": "Anonymous"
+    }
+  },
+  "Constants": [
+    {
+      "Name": "FeedbackModule.ClientIdentifier",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "Feedback Module 4.0.0"
+    },
+    {
+      "Name": "FeedbackModule.LocalStorageKey",
+      "Type": "String",
+      "Description": "",
+      "DefaultValue": "mxfeedback-form-data"
+    }
+  ],
+  "ScheduledEvents": [],
+  "Languages": [
+    "en_US"
+  ],
+  "Configuration": {
+    "SourceDatabaseType": "HSQLDB",
+    "SourceDatabaseName": "default",
+    "SourceBuiltInDatabasePath": "model/sampledata/data/database"
+  },
+  "RequestHandlers": [
+    {
+      "Name": "/p/",
+      "DefaultEnabled": false,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/api/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    },
+    {
+      "Name": "/link/",
+      "DefaultEnabled": true,
+      "MatchExactly": false
+    }
+  ]
+}

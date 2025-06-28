@@ -1,0 +1,48 @@
+Initialized native services in: /Users/mireiotrinley/.gradle/native
+Initialized jansi services in: /Users/mireiotrinley/.gradle/native
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=x86_64}
+Removing 0 daemon stop events from registry
+Starting a Gradle Daemon (subsequent builds will be faster)
+Starting process 'Gradle build daemon'. Working directory: /Users/mireiotrinley/.gradle/daemon/8.5 Command: /Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home/bin/java --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED --add-opens=java.base/java.nio.charset=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED -XX:MaxMetaspaceSize=384m -XX:+HeapDumpOnOutOfMemoryError -Xms256m -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=DE -Duser.language=de -Duser.variant -cp /opt/gradle/gradle-8.5/lib/gradle-launcher-8.5.jar -javaagent:/opt/gradle/gradle-8.5/lib/agents/gradle-instrumentation-agent-8.5.jar org.gradle.launcher.daemon.bootstrap.GradleDaemon 8.5
+Successfully started process 'Gradle build daemon'
+An attempt to start the daemon took 2.282 secs.
+The client will now receive all logging from the daemon (pid: 28818). The daemon log file: /Users/mireiotrinley/.gradle/daemon/8.5/daemon-28818.out.log
+Starting build in new daemon [memory: 512 MiB]
+Closing daemon's stdin at end of input.
+The daemon will no longer process any standard input.
+Using 8 worker leases.
+Received JVM installation metadata from '/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home': {JAVA_HOME=/Library/Java/JavaVirtualMachines/temurin-21.jdk/Contents/Home, JAVA_VERSION=21.0.5, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=21.0.5+11-LTS, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=21.0.5+11-LTS, VM_VENDOR=Eclipse Adoptium, OS_ARCH=x86_64}
+Watching the file system is configured to be enabled if available
+Now considering [/Users/mireiotrinley/Desktop/ERP_Projekt/deployment] as hierarchies to watch
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/settings.gradle'.
+Projects loaded. Root project using build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle'.
+Included projects: [root project 'deployment']
+
+> Configure project :
+Evaluating root project 'deployment' using build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle'.
+Compiling build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle' using SubsetScriptTransformer.
+Compiling build file '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/build.gradle' using BuildScriptTransformer.
+Compiling script '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/variables.gradle' using SubsetScriptTransformer.
+Compiling script '/Users/mireiotrinley/Desktop/ERP_Projekt/deployment/variables.gradle' using BuildScriptTransformer.
+All projects evaluated.
+Task name matched 'clean'
+Selected primary task 'clean' from project :
+Tasks to be executed: [task ':clean']
+Tasks that were excluded: []
+Resolve mutations for :clean (Thread[#58,Execution worker,5,main]) started.
+:clean (Thread[#58,Execution worker,5,main]) started.
+
+> Task :clean UP-TO-DATE
+Caching disabled for task ':clean' because:
+  Build cache is disabled
+Task ':clean' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+BUILD SUCCESSFUL in 9s
+1 actionable task: 1 up-to-date
+Watched directory hierarchies: []
+
+
+
