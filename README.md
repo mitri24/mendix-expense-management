@@ -8,14 +8,14 @@ tutorial about Mendix and built this expense tracking app. The tutorial covers a
 
 
 # Learned 
-Organized the App Explorer
-Created Domain Model with entities
-Configured security settings
-Built initial pages
-Created custom navigation layout
-Set up master layout
-Customized login page
-Added user registration
+- Organized the App Explorer
+- Created Domain Model with entities
+- Configured security settings
+- Built initial pages
+- Created custom navigation layout
+- Set up master layout
+- Customized login page
+- Added user registration
 
 # Tech Stack
 Mendix Studio Pro
